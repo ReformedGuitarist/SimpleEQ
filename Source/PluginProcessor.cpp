@@ -213,9 +213,7 @@ juce::AudioProcessorValueTreeState::ParameterLayout SimpleEQAudioProcessor::crea
     layout.add(std::make_unique <juce::AudioParameterChoice>("LowCut Slope", "LowCut Slope", stringArray, 0));
 
     layout.add(std::make_unique <juce::AudioParameterChoice>("HighCut Slope", "HighCut Slope", stringArray, 0));
-
-
-    
+        
 
     return layout;
 }
